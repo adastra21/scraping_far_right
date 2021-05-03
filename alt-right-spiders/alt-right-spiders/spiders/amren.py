@@ -58,6 +58,6 @@ class AmrenScraper(scrapy.Spider):
         
         try:
             # update filename
-            with open('data/scraped_articles_amren.json', 'a') as outfile:
+            with open('scraped_articles_amren.json', 'a') as outfile:
                 json.dump(data, outfile)
         except Exception as e: print(e)
