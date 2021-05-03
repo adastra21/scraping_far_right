@@ -1,0 +1,21 @@
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Scrapy stuff
+.scrapy
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# misc
+*.csv
+*.xlsx
+.json
